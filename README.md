@@ -11,6 +11,7 @@ So, a question that should take seconds was taking days. And worse? Two people c
 That's the problem I set out to solve.
 
 Approach
+
 •	Built a star schema with fact_orders and dimensions for customer, product, and date.
 
 •	Implemented incremental ETL and deduplication in SQL; persisted staging tables for auditability.
